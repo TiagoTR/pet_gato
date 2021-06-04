@@ -13,6 +13,11 @@ import caixaTransporte from '../../assets/img/caixa_transporte.svg';
 import coleira from  '../../assets/img/coleira.svg';
 import comedouro from '../../assets/img/comedouro.svg';
 
+import bruce from '../../assets/img/Bruce.png';
+import tobias from '../../assets/img/Tobias.png';
+import pernaLonga from '../../assets/img/Perna-longa.png';
+import lili from '../../assets/img/Lili.png';
+
 import './styles.css';
 import Title from '../../components/Title';
 
@@ -62,7 +67,28 @@ function Home() {
         <section id="clientes">
           
           <Title name="Clientes Felizes" />
-          <div className="">
+          
+          <div className="clientes-area">
+
+            <div className="cliente-info">
+              <img src={bruce} alt="Bruce" />
+              <h3>Bruce</h3>
+            </div>
+
+            <div className="cliente-info">
+              <img src={tobias} alt="Tobias"/>
+              <h3>Tobias</h3>
+            </div>
+
+            <div className="cliente-info">
+              <img src={pernaLonga} alt="Perna longa"/>
+              <h3>Perna Longa</h3>
+            </div>
+
+            <div className="cliente-info">
+              <img src={lili} alt="Lili"/>
+              <h3>Lili</h3>
+            </div>
 
           </div>
         
