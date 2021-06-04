@@ -14,6 +14,7 @@ import coleira from  '../../assets/img/coleira.svg';
 import comedouro from '../../assets/img/comedouro.svg';
 
 import './styles.css';
+import Title from '../../components/Title';
 
 function Home() {
   return (
@@ -34,9 +35,7 @@ function Home() {
         </section>
 
         <section id="produtos">
-            <div className="title"> 
-              <h2> Produtos </h2>
-            </div>
+            <Title name="Produtos" />
 
             <div className="cards-scroll">
               <img src={leftArrow} alt="seta esquerda" className="seta"/>
@@ -61,7 +60,12 @@ function Home() {
         </section>
 
         <section id="clientes">
-            
+          
+          <Title name="Clientes Felizes" />
+          <div className="">
+
+          </div>
+        
         </section>
 
         <section id="footer">
