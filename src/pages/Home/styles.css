@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
 
+    margin-bottom: 20px;
 }
 
 #intro h2{
@@ -47,3 +48,99 @@
 
     margin-bottom: 20px;
 }
+
+
+#produtos {
+    width: 100%;
+
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+#produtos .title {
+    width: 300px;
+    
+
+    background: #13BBAF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    padding: 10px 15px 10px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+#produtos .title h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#produtos .cards-scroll {
+    width: 90%;
+
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#produtos .cards-scroll .seta{
+    width: 100px;
+    height: 100px;
+
+    cursor: pointer;
+}
+
+#produtos .cards-scroll .card {
+    width: 230px;
+    height: 350px;
+    
+    background: #FFFFFF;
+    border-radius: 34px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+#produtos .cards-scroll .card img {
+    width: 280px;
+    height: 180px;
+
+    margin-bottom: 20px;
+}
+
+
+
+#produtos .cards-scroll .card h3 {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+    color: #13BBAF;
+}
+

@@ -6,6 +6,12 @@ import hamster from  '../../assets/icons/hamster.svg';
 import rabbit from  '../../assets/icons/coelho.svg';
 import paw from  '../../assets/icons/pe.svg';
 
+import leftArrow from '../../assets/icons/leftArrow.svg';
+import rightArrow from '../../assets/icons/rightArrow.svg';
+
+import caixaTransporte from '../../assets/img/caixa_transporte.svg';
+import coleira from  '../../assets/img/coleira.svg';
+import comedouro from '../../assets/img/comedouro.svg';
 
 import './styles.css';
 
@@ -27,8 +33,31 @@ function Home() {
           </div>
         </section>
 
-        <section id="Produtos">
-            
+        <section id="produtos">
+            <div className="title"> 
+              <h2> Produtos </h2>
+            </div>
+
+            <div className="cards-scroll">
+              <img src={leftArrow} alt="seta esquerda" className="seta"/>
+              
+              <div className="card">
+                <img src={coleira} />
+                <h3>Coleiras</h3>
+              </div>
+
+              <div className="card">
+                <img src={comedouro} />
+                <h3>Comedouros</h3>
+              </div>
+
+              <div className="card">
+                <img src={caixaTransporte} />
+                <h3>Caixa de Transporte</h3>
+              </div>
+
+              <img src={rightArrow} alt="seta direita" className="seta"/>
+            </div>
         </section>
 
         <section id="clientes">
